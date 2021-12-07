@@ -1,0 +1,58 @@
+/* Variables */
+:root {
+    --main-blue : rgb(40,165,170);
+    --main-grey : rgb(180,180,180);
+    --ligh-grey : rgb(200, 200, 200);
+}
+
+.mainform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conditioncontainer {
+    width: 300px;
+}
+
+.conditioncontainer p {
+    color: var(--ligh-grey);
+}
+
+.submitbutton {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: var(--main-blue);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.signupbutton, .passwordbutton {
+    height: 30px;
+    margin: 20px 0;
+    padding: 0 0 4px 0;
+    text-align: left;
+    text-decoration: none;
+    border: 0;
+    border-bottom: 1px solid var(--ligh-grey);
+    font-size: 16px;
+    color: var(--ligh-grey);
+    background-color: transparent;
+}
+
+.passwordbutton {
+    width: 350px;
+}
+
+.signupbutton {
+    width: 700px;
+}

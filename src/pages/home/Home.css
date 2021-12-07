@@ -1,0 +1,16 @@
+/* Variables */
+:root {
+    --main-blue : rgb(40,165,170)
+}
+
+/* Other rules */
+h1 {
+    color: var(--main-blue);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
